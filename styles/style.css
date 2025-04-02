@@ -137,8 +137,8 @@
   filter: saturate(0.7);
 }
 
-.filter_saturate_second {
-  filter: saturate(0.9);
+.filter_saturate_opacity {
+  filter: saturate(0.9) opacity(0.9);
 }
 
 .filter_hue_rotate {
@@ -160,6 +160,15 @@
 .filter_many {
   filter: hue-rotate(60deg) blur(2px) opacity(0.9) brightness(0.9);
 }
+
+/*Шаг 6. Фильтры
+Карточки
+На каждое из изображений добавьте дополнительный уникальный класс и стилизуйте CSS-фильтром, который ещё сильнее подчеркнёт ваш замысел и передаст нужную эмоцию. 
+Минимум на семи картинках должны быть разные фильтры и хотя бы один из них — множественный.
+
+Нигде не сказано о том что должна быть одна и та же картинка
+
+*/
 
 .watermark {
   position: absolute;
